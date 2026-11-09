@@ -15,6 +15,8 @@ const eslintConfig = defineConfig([
     // Deno runtime, not part of the Next.js app — see tsconfig.json's
     // matching exclude.
     "supabase/functions/**",
+    // Separate Next.js app with its own config.
+    "three-guys/**",
   ]),
 ]);
 
